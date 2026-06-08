@@ -4,6 +4,10 @@
   --color-brand: #0da487;
 }
 
+.wrapper {
+  @apply px-[3.75%];
+}
+
 #header-text p {
   animation: header-slider 6s linear infinite;
 }
