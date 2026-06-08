@@ -4,8 +4,8 @@
     "tailwindcss": "^4.3.0"
   },
   "scripts": {
-    "build": "npx @tailwindcss/cli -i ./src/index.css -o ./dist/style.css",
-    "dev": "npx @tailwindcss/cli -i ./src/index.css -o ./dist/style.css --watch"
+    "build": "npx @tailwindcss/cli -i ./index.css -o ./style.css",
+    "dev": "npx @tailwindcss/cli -i ./index.css -o ./style.css --watch"
   },
   "devDependencies": {
     "prettier": "^3.8.3",
