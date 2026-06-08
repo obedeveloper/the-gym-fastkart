@@ -1,1 +1,21 @@
 @import "tailwindcss";
+
+@theme {
+  --color-brand: #0da487;
+}
+
+#header-text p {
+  animation: header-slider 6s linear infinite;
+}
+
+@keyframes header-slider {
+  25%,
+  75% {
+    transform: translateY(0%);
+  }
+
+  50%,
+  60% {
+    transform: translateY(-100%);
+  }
+}

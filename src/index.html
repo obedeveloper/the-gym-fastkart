@@ -7,8 +7,31 @@
     <title>Fastkart</title>
   </head>
   <body>
-    <h1 class="bg-gray-300 py-3 text-center text-3xl font-bold">
-      Hello World!
-    </h1>
+    <header
+      class="flex justify-end bg-brand px-[3.75%] py-2.5 text-white md:justify-between"
+    >
+      <div class="hidden h-lh overflow-hidden md:block" id="header-text">
+        <p>
+          <strong>Welcome to Fastkart!</strong>Wrap new offers/gift every single
+          day on Weekends.<strong>New Coupon Code: Fast024 </strong>
+        </p>
+        <p>
+          Something you love is now on sale!
+          <a href="" class="font-semibold underline">Buy Now !</a>
+        </p>
+      </div>
+      <div class="flex justify-end gap-2 *:flex *:items-center [&_img]:w-5">
+        <div>
+          <img src="../images/united-states.png" alt="" class="me-2 w-5!" />
+          <span>English</span>
+          <img src="../images/chevron.png" alt="" />
+        </div>
+        <span class="border-l-2 border-gray-300/40"></span>
+        <div>
+          <span>USD</span>
+          <img src="../images/chevron.png" alt="" />
+        </div>
+      </div>
+    </header>
   </body>
 </html>
