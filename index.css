@@ -8,6 +8,10 @@
   @apply px-[3.75%];
 }
 
+.stack * {
+  grid-area: 1/-1;
+}
+
 #header-text p {
   animation: header-slider 6s linear infinite;
 }
